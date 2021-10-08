@@ -10,7 +10,7 @@
 
 ## 为什么要阅读这些教程呢？
 
-<img alt="Image of smiling textured containers in OpenGL" src="img/demo.png" class="right medium" />
+<img alt="Image of smiling textured containers in OpenGL" src="../demo.png" class="right medium" />
 
 在互联网上，有关学习[OpenGL]()的有成千上万的文档与资源，然而其中大部分的资源仅仅讨论了[OpenGL]()的立即渲染模式（Immediate Mode，通常会说旧[OpenGL]()），亦或是不完整，缺少适当的文档，甚至是仅仅不适合你的口味。
 
