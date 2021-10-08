@@ -10,20 +10,15 @@ repo_name: 'beanflame/opengl-book'
 repo_url: 'https://github.com/beanflame/opengl-book'
 edit_uri: 'https://opengl-book.beanflame.cn/edit-landing/?ref='
 
-
 # 版权
 copyright: 'Copyright &copy; 2021 - 2021 opengl-book'
 google_analytics:
   - 'UA-124485594-1'
   - 'auto'
 
-
-
-
 # 目录
 nav:
   - 主页: 'index.md'
-    
   - OpenGL Book:
     - 主页: 'opengl-book/index.md'
     - 简介: 'opengl-book/intro.md'
@@ -31,28 +26,9 @@ nav:
       - OpenGL: 'opengl-book/1-introduction/1-OpenGL.md'
       - OpenGL配置: 'opengl-book/1-introduction/2-OpenGL-Configuration.md'
       - 创建窗口: 'opengl-book/1-introduction/3-Create-Window.md'
-      
-      
-      
-      
-      
-      
     - 主题: 'virbit/theme.md'
 
 # 主题
-#theme:
-#  name: null
-#  custom_dir: 'material'
-#  static_templates:
-#    - 404.html
-#  language: 'zh'
-#  palette:
-#    primary: 'white'
-#    accent: 'red'
-#  include_search_page: false
-#  search_index_only: true
-#  favicon: 'https://cdn.jsdelivr.net/npm/oicdn@0.0.1/favicon.ico'
-#  
 #  logo:
 #    icon: 'school'
 #  feature:
@@ -60,7 +36,6 @@ nav:
 #  font:
 #    text: 'Fira Sans'
 #    code: 'Fira Mono'
-
 
 theme:
   name: null
@@ -100,8 +75,8 @@ theme:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
     - scheme: slate
-      primary: red
-      accent: red
+      primary: 'white'
+      accent: 'red'
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
@@ -111,11 +86,6 @@ theme:
   favicon: assets/favicon.png
   icon:
     logo: logo
-
-
-
-
-
 
 
 # 定制
@@ -135,16 +105,13 @@ extra:
   #   progressBar: false
   #   timeout: false
 
-
 extra_javascript:
   - '_static/js/extra.js?v=16'
   - 'https://cdn.jsdelivr.net/npm/mathjax@2.7.5/MathJax.js?config=TeX-MML-AM_CHTML'
 
-
 extra_css:
   - '_static/css/extra.css?v=13'
   - '_static/css/colortab.css'
-  
 
 # 扩展
 markdown_extensions:
