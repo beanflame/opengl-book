@@ -11,6 +11,9 @@ windows下VSCode配置OpenGL开发环境：
 * 2、VSCode需要安装C/C++插件：<light>C/C++</light>、<light>C/C++ Project Generator</light>
 
 
+<video src="../mingw-w64.mp4" controls="controls"/></video>
+
+
 
 ### 文档信息
 
