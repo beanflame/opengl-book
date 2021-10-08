@@ -105,7 +105,7 @@ extra_css:
 
 # 扩展
 markdown_extensions:
-  - colortab
+  # - colortab
   - admonition
   - codehilite:
       guess_lang: false
