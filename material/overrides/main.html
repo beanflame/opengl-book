@@ -5,15 +5,6 @@
 {% block extrahead %}
   <link rel="stylesheet" href="{{ 'overrides/assets/stylesheets/main.9307850e.min.css' | url }}">
 {% endblock %}
-{% block announce %}
-  <a href="https://twitter.com/squidfunk">
-    For updates follow <strong>@squidfunk</strong> on
-    <span class="twemoji twitter">
-      {% include ".icons/fontawesome/brands/twitter.svg" %}
-    </span>
-    <strong>Twitter</strong>
-  </a>
-{% endblock %}
 {% block scripts %}
   {{ super() }}
   <script src="{{ 'overrides/assets/javascripts/bundle.bb368c8a.min.js' | url }}"></script>
