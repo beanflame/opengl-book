@@ -57,19 +57,22 @@ theme:
     - search.share
     - search.suggest
     # - toc.integrate
-  palette:
-    - scheme: default
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: 切换到黑暗模式
-    - scheme: slate
-      primary: red
-      accent: red
-      toggle:
-        icon: material/toggle-switch
-        name: 切换到灯光模式
+    
+#  palette:
+#    - scheme: default
+#      primary: indigo
+#      accent: indigo
+#      toggle:
+#        icon: material/toggle-switch-off-outline
+#        name: 切换到黑暗模式
+#        
+#    - scheme: slate
+#      primary: red
+#      accent: red
+#      toggle:
+#        icon: material/toggle-switch
+#        name: 切换到灯光模式
+
   font:
     text: Roboto
     code: Roboto Mono
@@ -94,7 +97,7 @@ extra_javascript:
   - 'https://cdn.jsdelivr.net/npm/mathjax@2.7.5/MathJax.js?config=TeX-MML-AM_CHTML'
 
 extra_css:
-  - '_static/css/extra.css?v=13'
+  # - '_static/css/extra.css?v=13'
   - '_static/css/colortab.css'
 
 # 扩展
