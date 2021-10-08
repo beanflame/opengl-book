@@ -1,4 +1,4 @@
-# 创建窗口
+## 创建窗口
 
 !!! note "译注"
 
@@ -18,7 +18,7 @@
 最流行的几个库有`GLUT`，`SDL`，`SFML`和`GLFW`。在教程里我们将使用<light>GLFW</light>。
 
 
-## GLFW
+### GLFW
 
 `GLFW`是一个专门针对`OpenGL`的`C语言库`，它提供了一些渲染物体所需的最低限度的接口。
 
@@ -34,7 +34,7 @@
 
 如果你用的不是`Visual Studio`（或者用的是它的旧版本）请不要担心，大多数`IDE`上的操作都是类似的。
 
-## 构建GLFW
+### 构建GLFW
 
 `GLFW`可以从它官方网站的 [下载页](http://www.glfw.org/download.html) 上获取。
 
@@ -111,11 +111,11 @@
 
 完成上面步骤后，我们就可以使用`GLFW`创建我们的第一个`OpenGL`工程了！
 
-## 我们的第一个工程
+###  我们的第一个工程
 
 首先，打开`Visual Studio`，创建一个新的项目。如果`VS`提供了多个选项，选择`Visual C++`，然后选择<light>Empty Project(空项目)</light>（别忘了给你的项目起一个合适的名字）。现在我们终于有一个空的工作空间了，开始创建我们第一个`OpenGL`程序吧！
 
-## 链接
+###  链接
 
 为了使我们的程序使用`GLFW`，我们需要把`GLFW`库<def>链接</def>(Link)进工程。
 
@@ -167,7 +167,7 @@
 
 GLFW的安装与配置就到此为止。
 
-## GLAD
+### GLAD
 
 到这里还没有结束，我们仍然还有一件事要做。因为OpenGL只是一个标准/规范，具体的实现是由驱动开发商针对特定显卡实现的。由于OpenGL驱动版本众多，它大多数函数的位置都无法在编译时确定下来，需要在运行时查询。所以任务就落在了开发者身上，开发者需要在运行时获取函数地址并将其保存在一个函数指针中供以后使用。取得地址的方法[因平台而异](https://www.khronos.org/opengl/wiki/Load_OpenGL_Functions)，在Windows上会是类似这样：
 
@@ -199,7 +199,7 @@ GLAD现在应该提供给你了一个zip压缩文件，包含两个头文件目�
 
 点击编译按钮应该不会给你提示任何的错误，到这里我们就已经准备好继续学习[下一节](03 Hello Window.md)去真正使用GLFW和GLAD来设置OpenGL上下文并创建一个窗口了。记得确保你的头文件和库文件的目录设置正确，以及链接器里引用的库文件名正确。如果仍然遇到错误，可以先看一下评论有没有人遇到类似的问题，请参考额外资源中的例子或者在下面的评论区提问。
 
-## 附加资源
+###  附加资源
 
 - [GLFW: Window Guide](http://www.glfw.org/docs/latest/window_guide.html)：GLFW官方的配置GLFW窗口的指南。
 - [Building applications](http://www.opengl-tutorial.org/miscellaneous/building-your-own-c-application/)：提供了很多编译或链接相关的信息和一大列错误及对应的解决方案。
@@ -208,7 +208,7 @@ GLAD现在应该提供给你了一个zip压缩文件，包含两个头文件目�
 - [Writing a build system under Linux](http://learnopengl.com/demo/autotools_tutorial.txt)：Wouter Verholst写的一个autotools的教程，讲的是如何在Linux上编写构建系统，尤其是针对这些教程。
 - [Polytonic/Glitter](https://github.com/Polytonic/Glitter)：一个简单的样板项目，它已经提前配置了所有相关的库；如果你想要很方便地搞到一个LearnOpenGL教程的范例工程，这也是很不错的。
 
-## 文档信息
+### 文档信息
 
 | 网站 | 名字 | 是否完成进度 |
 |-|-|-|
