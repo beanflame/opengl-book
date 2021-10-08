@@ -22,9 +22,9 @@ nav:
     - 主页: 'opengl-book/index.md'
     - 简介: 'opengl-book/intro.md'
     - 入门:
-      - OpenGL: 'opengl-book/1-introduction/1-OpenGL.md'
-      - OpenGL配置: 'opengl-book/1-introduction/2-OpenGL-Configuration.md'
-      - 创建窗口: 'opengl-book/1-introduction/3-Create-Window.md'
+      - OpenGL: 'opengl-book/1-introduction/1-opengl.md'
+      - OpenGL配置: 'opengl-book/1-introduction/2-opengl-configuration.md'
+      - 创建窗口: 'opengl-book/1-introduction/3-create-window.md'
     - 主题: 'theme.md'
 
 theme:
