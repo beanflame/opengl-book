@@ -2,19 +2,18 @@
 site_name: opengl book
 site_description: opengl book 是教程文档，beanflame哲学研究教程文档设计工程计划，尝试写得很细，语言要通俗易懂，希望能够建立起一个完善的教程。
 site_author: beanflame
-site_url: https://opengl-book.beanflame.cn/
-strict: false
+# site_url: https://opengl-book.beanflame.cn/
+
 
 # 存储库
 repo_name: 'beanflame/opengl-book'
 repo_url: 'https://github.com/beanflame/opengl-book'
-edit_uri: 'https://opengl-book.beanflame.cn/edit-landing/?ref='
+edit_uri: edit/main/docs/
+
 
 # 版权
 copyright: 'Copyright &copy; 2021 - 2021 opengl-book'
-google_analytics:
-  - 'UA-124485594-1'
-  - 'auto'
+
 
 # 目录
 nav:
@@ -28,18 +27,9 @@ nav:
       - 创建窗口: 'opengl-book/1-introduction/3-Create-Window.md'
     - 主题: 'virbit/theme.md'
 
-# 主题
-#  logo:
-#    icon: 'school'
-#  feature:
-#    tabs: true
-#  font:
-#    text: 'Fira Sans'
-#    code: 'Fira Mono'
-
 theme:
   name: null
-  custom_dir: !ENV [THEME_DIR, "material"]
+  custom_dir: 'material'
 
   # Static files
   static_templates:
@@ -73,13 +63,13 @@ theme:
       accent: indigo
       toggle:
         icon: material/toggle-switch-off-outline
-        name: Switch to dark mode
+        name: 切换到黑暗模式
     - scheme: slate
       primary: red
       accent: red
       toggle:
         icon: material/toggle-switch
-        name: Switch to light mode
+        name: 切换到灯光模式
   font:
     text: Roboto
     code: Roboto Mono
@@ -97,13 +87,7 @@ extra:
   pagetime: 'on'
   manifest: 'manifest.webmanifest'
   githash: ''
-  # notice:
-  #   title: 'Hi'
-  #   message: '欢迎点击这里对 OI Wiki 提一点建议'
-  #   url: 'https://wj.qq.com/s2/4467592/b1e9'
-  #   position: 'topCenter'
-  #   progressBar: false
-  #   timeout: false
+
 
 extra_javascript:
   - '_static/js/extra.js?v=16'
