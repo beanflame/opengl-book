@@ -102,7 +102,7 @@ extra_javascript:
 extra_css:
   # - '_static/css/extra.css?v=13'
   - '_static/css/style.css'
-  - '_static/css/admonition_fix.css'
+  #- '_static/css/admonition_fix.css'
   - '_static/css/colortab.css'
 
 # 扩展
