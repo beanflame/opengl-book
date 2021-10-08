@@ -58,6 +58,9 @@ theme:
     - search.suggest
     # - toc.integrate
     
+  palette:
+    scheme: default
+
 #  palette:
 #    - scheme: default
 #      primary: indigo
