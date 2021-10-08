@@ -5,68 +5,14 @@
   %} {% endif %}
 {% set copyright = config.extra.copyright %} {% if page and page.meta and page.meta.copyright is string %} {% set copyright = page.meta.copyright
   %} {% endif %}
-  
 {% set authors = 'opengl-book' %} {% if page and page.meta and page.meta.author is string %} {% set authors = page.meta.author
   %} {% endif %}
-  
-  
-  
 <hr><blockquote class="page-copyright">
-
-
-	<span>
-	<i class="md-icon build"></i>本页面最近更新：
-	</span>
-	<span class="facts_modified">
-	</span> 
-	<a class="edit_history">更新历史</a>
-	<br>
-	
-	
-	<span>
-	<i class="md-icon edit">
-	</i>发现错误？想一起完善？ 
-	<a href="{{ page.edit_url }}" title="{{ lang.t('edit.link.title') }}" class="page_edit_url">
-	在 GitHub 上编辑此页！
-	</a>
-	</span>
-	<br>
-	
-	
-	<span>
-	<i class="md-icon people">
-	</i>本页面链接：
-	</span>
-	<span class="page_contributors">
-	<a href="{{ page.canonical_url }}" title="{{ page.title }}" class="page_contributors">
-	{{ page.canonical_url }}
-	</a>
-	</span>
-	<br>
-	
-	
-	<span>
-	<i class="md-icon copyright">
-	</i>本页面的全部内容在 
-	<strong>
-	{{ copyright }}
-	</strong> 协议之条款下提供，附加条款亦可能应用
-	</span>
-	
-	
+  <span><i class="md-icon">build</i>本页面最近更新：</span><span class="facts_modified"></span> <a class="edit_history">更新历史</a><br>
+  <span><i class="md-icon">edit</i>发现错误？想一起完善？ <a href="{{ page.edit_url }}" title="{{ lang.t('edit.link.title') }}" class="page_edit_url">在 GitHub 上编辑此页！</a></span><br>
+  <span><i class="md-icon">people</i>本页面贡献者：</span><span class="page_contributors">{{ authors }}</span><br>
+  <span><i class="md-icon">copyright</i>本页面的全部内容在 <strong>{{ copyright }}</strong> 协议之条款下提供，附加条款亦可能应用</span>
 </blockquote>
-
-
-
-
-
-
-
-
-
-
-
-
 {% if not page.is_homepage and disqus %}
 {% set pageID = page.title | default("404", true) %}
 <h2 id="__comments" data-no-instant>{{ lang.t("meta.comments") }}</h2>
@@ -89,11 +35,4 @@
   })
   gitalk.render('gitalk-container')
 </script>
-
-
-<div id="disqus_thread"></div>
-<script>var script,disqus_config=function(){this.page.url="{{ page.canonical_url }}",this.page.identifier="{{ page.canonical_url | replace(config.site_url, '') }}"};"undefined"==typeof DISQUS?((script=document.createElement("script")).async=!0,script.src="https://{{ disqus }}.disqus.com/embed.js",script.setAttribute("data-timestamp",Date.now()),document.body.appendChild(script)):DISQUS.reset({reload:!0,config:disqus_config})</script>
-
-
 {% endif %}
-
