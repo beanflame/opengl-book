@@ -41,12 +41,7 @@ p code {
 	word-wrap: normal;
 }
 
-div.admonition code {
-	display: inline-block;
-	overflow-x: visible;
-	line-height: 18px;
-	color: #404040;
-}
+
 
 img {
     display: block;
