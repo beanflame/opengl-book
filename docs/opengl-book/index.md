@@ -1,6 +1,4 @@
-disqus:
-pagetime:
-title: OpenGL Book
+
 
 ## **OpenGL Book**
 
