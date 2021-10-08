@@ -1,8 +1,8 @@
-# OpenGL配置
+## OpenGL配置
 
 
 
-## VSCode-OpenGL配置
+### VSCode-OpenGL配置
 
 windows下VSCode配置OpenGL开发环境：
 
@@ -12,7 +12,7 @@ windows下VSCode配置OpenGL开发环境：
 
 
 
-## 文档信息
+### 文档信息
 
 | 网站 | 名字 | 是否完成进度 |
 |-|-|-|
