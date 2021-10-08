@@ -30,16 +30,8 @@ table td, table th {
 	font-size: 100% !important;
 }
 
-code {
-	font-size: 100%;
-	background: #F8F8F8;
-	font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
-}
 
-p code {
-	font-size: 80%;
-	word-wrap: normal;
-}
+
 
 
 
