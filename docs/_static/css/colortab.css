@@ -1,0 +1,114 @@
+/*
+light {
+	border-radius: 0px;
+	border: 1px solid #CCCCCC;
+	background: #FFCC00;
+	padding: 0px 3px;
+	
+	font-style: normal;
+	font-weight: bold;
+    font-family: 微软雅黑, Consolas, "Courier New", Courier, monospace;
+    color: #000000;
+}
+*/
+
+
+/*
+light {
+	border-radius: 0px;
+	border: 1px solid #CCCCCC;
+	background: #FFCC00;
+	padding: 0px 3px;
+	
+	font-style: normal;
+	font-weight: bold;
+    color: #000000;
+}
+*/
+
+def {
+	
+	padding: 0px 3px;
+	
+	font-weight: bold;
+    font-family: 微软雅黑, Consolas, "Courier New", Courier, monospace;
+    color: #008000;
+}
+
+fun {
+	
+	padding: 0px 3px;
+	
+	font-weight: bold;
+    font-family: 微软雅黑, Consolas, "Courier New", Courier, monospace;
+    color: #FF8000;
+}
+
+var {
+
+	padding: 0px 3px;
+	
+	font-style: normal;
+	font-weight: bold;
+    font-family: 微软雅黑, Consolas, "Courier New", Courier, monospace;
+    color: #222277;
+}
+
+
+
+
+virbit-question {
+	border: 1px solid #CCCCCC;
+	background: #FFF8C5;
+	padding: 0px 3px;
+	font-family: Consolas, 微软雅黑;
+    color: #000000;
+}
+
+
+
+
+virbit-light {
+	/*border: 1px solid #CCCCCC;*/
+	background: #FFCC00;
+	font-style: normal;
+	font-weight: bold;
+    color: #484848;
+}
+
+
+virbit-correct {
+	border: 1px solid #CCCCCC;
+	background: #C6EFCE;
+	padding: 0px 3px;
+	/*color: #11AB4B;*/
+	font-family: Consolas, 微软雅黑;
+	color: #006100;  
+}
+
+virbit-error {
+	border: 1px solid #CCCCCC;
+	background: #FFD2D2;
+	padding: 0px 3px;
+	font-family: Consolas, 微软雅黑;
+	color: #444444;  
+}
+
+virbit-note {
+	border: 1px solid #CCCCCC;
+	background: #D9EDF7;
+	padding: 0px 3px;
+	font-family: Consolas, 微软雅黑;
+	color: #3572A5;  
+}
+
+
+virbit-toek {
+    color: #FA005A;
+	-webkit-transition:background-color 0.2s;
+}
+virbit-toek:hover
+{
+	color: #0645AD;
+	background-color: #D3DEEF;
+}

@@ -1,0 +1,18 @@
+# mkdocs>=1
+# pymdown-extensions
+# Pygments>=2.2,<2.4
+
+# mkdocs-material
+
+
+colortab
+
+
+
+jinja2>=2.11.1
+markdown>=3.2
+mkdocs>=1.2.2
+mkdocs-material-extensions>=1.0
+pygments>=2.4
+pymdown-extensions>=9.0
+
