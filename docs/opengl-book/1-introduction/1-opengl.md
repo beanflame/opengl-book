@@ -11,7 +11,7 @@
 然而，OpenGL本身并不是一个API，它仅仅是一个由 [Khronos组织](http://www.khronos.org/) 制定并维护的规范(Specification)。
 
 
-<img alt="OpenGL Logo" src="../../opengl-book/1-introduction/opengl.png" class="right" width="300" height="130"/>
+<img alt="OpenGL Logo" src="../opengl.png" class="right" width="300" height="130"/>
 
 [OpenGL]()规范严格规定了每个函数该如何执行，以及它们的输出值。
 至于内部具体每个函数是如何实现(Implement)的，将由[OpenGL]()库的开发者自行决定（译注：这里开发者是指编写[OpenGL]()库的人）。
