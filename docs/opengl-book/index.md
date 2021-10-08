@@ -3,8 +3,8 @@
 
 欢迎 OpenGL Book
 
-[OpenGL Book]()是从2021年开始的[beanflame](https://blog.beanflame.cn/)哲学研究教程文档设计工程计划，是[beanflame](https://blog.beanflame.cn/)尝试写得很细，语言要通俗易懂，希望能够建立起一个完善的&~OpenGL教程~&。
-无论你学习[OpenGL]()是为了学业，找工作，或仅仅是因为兴趣，[OpenGL Book]()网站~&都将能够教会你[现代OpenGL(Core-profile)]()从基础，中级，到高级的知识。
+[OpenGL Book]()是从2021年开始的[beanflame](https://blog.beanflame.cn/)哲学研究教程文档设计工程计划，是[beanflame](https://blog.beanflame.cn/)尝试写得很细，语言要通俗易懂，希望能够建立起一个完善的[OpenGL教程]()。
+无论你学习[OpenGL]()是为了学业，找工作，或仅仅是因为兴趣，[OpenGL Book]()网站都将能够教会你[现代OpenGL(Core-profile)]()从基础，中级，到高级的知识。
 [OpenGL Book]()的目标是使用易于理解的形式，写得很细，语言要通俗易懂，使用清晰的例子，展现[现代OpenGL]()的所有知识点，并与此同时为你以后的学习提供有用的参考。
 如果您喜欢这个系列教程的话，不妨向[beanflame](https://blog.beanflame.cn/)的[爱发电](https://afdian.net/@beanflame/)进行捐赠，支持一下作者，让这个教程能够持续完善并更新。
 
