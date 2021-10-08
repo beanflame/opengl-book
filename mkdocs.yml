@@ -8,7 +8,7 @@ strict: false
 # 存储库
 repo_name: 'beanflame/opengl-book'
 repo_url: 'https://github.com/beanflame/opengl-book'
-edit_uri: 'https://opengl-book.beanflame.cn/edit-landing/?ref='
+# edit_uri: 'https://opengl-book.beanflame.cn/edit-landing/?ref='
 
 # 版权
 copyright: 'Copyright &copy; 2021 - 2021 opengl-book'
@@ -75,8 +75,8 @@ theme:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
     - scheme: slate
-      primary: 'white'
-      accent: 'red'
+      primary: red
+      accent: red
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
