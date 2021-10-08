@@ -1,4 +1,6 @@
-
+---
+disqus: 'opengl-book'
+---
 
 ## **OpenGL Book**
 
