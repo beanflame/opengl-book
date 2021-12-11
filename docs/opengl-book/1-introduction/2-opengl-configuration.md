@@ -11,12 +11,13 @@ windows下VSCode配置OpenGL开发环境：
 * 2、VSCode需要安装C/C++插件：<light>C/C++</light>、<light>C/C++ Project Generator</light>
 
 
-<video style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="https://www.w3school.com.cn/example/html5/mov_bbb.mp4" controls="controls"/></video>
 
 
 <div style="position: relative; padding: 30% 45%;">
 <iframe src="//player.bilibili.com/player.html?aid=100456428&cid=171311599&page=1&as_wide=1&high_quality=1&danmaku=" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"> </iframe>
 </div>
+
+<iframe src="//player.bilibili.com/player.html?aid=718409421&bvid=BV15Q4y1X7jK&cid=422027928&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 
 ### 文档信息
